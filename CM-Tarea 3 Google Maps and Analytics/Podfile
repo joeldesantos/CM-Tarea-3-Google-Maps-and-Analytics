@@ -1,0 +1,5 @@
+xcodeproj '/Users/Aleyr/Documents/Master/Cuatrimestre 03/Computo Movil/03 Tarea/CM-Tarea 3 Google Maps and Analytics/CM-Tarea 3 Google Maps and Analytics.xcodeproj'
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '8.1'
+pod 'GoogleMaps'
+pod 'Google/Analytics', '~> 1.0.0'
