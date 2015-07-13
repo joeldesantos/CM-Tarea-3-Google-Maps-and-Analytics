@@ -7,10 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6CFB2DEC1B508F0D0053871B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CFB2DEB1B508F0D0053871B /* main.m */; };
+		6C4163461B534B120016A330 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C4163451B534B120016A330 /* main.m */; };
+		6C6C14F21B52FF6300F24563 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C6C14F11B52FF6300F24563 /* CoreLocation.framework */; };
 		6CFB2DEF1B508F0D0053871B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CFB2DEE1B508F0D0053871B /* AppDelegate.m */; };
 		6CFB2DF21B508F0D0053871B /* CM_Tarea_3_Google_Maps_and_Analytics.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6CFB2DF01B508F0D0053871B /* CM_Tarea_3_Google_Maps_and_Analytics.xcdatamodeld */; };
-		6CFB2DF51B508F0D0053871B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CFB2DF41B508F0D0053871B /* ViewController.m */; };
+		6CFB2DF51B508F0D0053871B /* Start.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CFB2DF41B508F0D0053871B /* Start.m */; };
 		6CFB2DF81B508F0D0053871B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CFB2DF61B508F0D0053871B /* Main.storyboard */; };
 		6CFB2DFA1B508F0D0053871B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CFB2DF91B508F0D0053871B /* Images.xcassets */; };
 		6CFB2DFD1B508F0D0053871B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CFB2DFB1B508F0D0053871B /* LaunchScreen.xib */; };
@@ -19,6 +20,12 @@
 		6CFB2E1E1B50B1300053871B /* Info.plist in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CFB2DEA1B508F0D0053871B /* Info.plist */; };
 		6CFB2E201B50B3FC0053871B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6CFB2E1F1B50B3FC0053871B /* GoogleService-Info.plist */; };
 		6CFB2E211B50B3FC0053871B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6CFB2E1F1B50B3FC0053871B /* GoogleService-Info.plist */; };
+		6CFB2E271B511C1C0053871B /* RWAppData.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CFB2E261B511C1C0053871B /* RWAppData.m */; };
+		6CFB2E2A1B511E500053871B /* MapLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CFB2E291B511E500053871B /* MapLocation.m */; };
+		6CFB2E301B5140030053871B /* AddMapLocationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CFB2E2F1B5140030053871B /* AddMapLocationController.m */; };
+		6CFB2E331B51402F0053871B /* ListMapLocationsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CFB2E321B51402F0053871B /* ListMapLocationsController.m */; };
+		6CFB2E381B51407B0053871B /* MapLocationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CFB2E361B51407B0053871B /* MapLocationCell.m */; };
+		6CFB2E391B51407B0053871B /* MapLocationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CFB2E371B51407B0053871B /* MapLocationCell.xib */; };
 		89FBC33F2E952A721BC0B1DC /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 735245AE5FEC6B99AABA439B /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -34,14 +41,15 @@
 
 /* Begin PBXFileReference section */
 		53EDEA9A5AECC71123EBB570 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "CM-Tarea 3 Google Maps and Analytics/Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		6C4163451B534B120016A330 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6C6C14F11B52FF6300F24563 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		6CFB2DE61B508F0D0053871B /* CM-Tarea 3 Google Maps and Analytics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CM-Tarea 3 Google Maps and Analytics.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CFB2DEA1B508F0D0053871B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6CFB2DEB1B508F0D0053871B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6CFB2DED1B508F0D0053871B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6CFB2DEE1B508F0D0053871B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		6CFB2DF11B508F0D0053871B /* CM_Tarea_3_Google_Maps_and_Analytics.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CM_Tarea_3_Google_Maps_and_Analytics.xcdatamodel; sourceTree = "<group>"; };
-		6CFB2DF31B508F0D0053871B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		6CFB2DF41B508F0D0053871B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6CFB2DF31B508F0D0053871B /* Start.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Start.h; sourceTree = "<group>"; };
+		6CFB2DF41B508F0D0053871B /* Start.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Start.m; sourceTree = "<group>"; };
 		6CFB2DF71B508F0D0053871B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6CFB2DF91B508F0D0053871B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6CFB2DFC1B508F0D0053871B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -52,6 +60,17 @@
 		6CFB2E1A1B50B06D0053871B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		6CFB2E1C1B50B0840053871B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		6CFB2E1F1B50B3FC0053871B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6CFB2E251B511C1C0053871B /* RWAppData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWAppData.h; sourceTree = "<group>"; };
+		6CFB2E261B511C1C0053871B /* RWAppData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWAppData.m; sourceTree = "<group>"; };
+		6CFB2E281B511E500053871B /* MapLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapLocation.h; sourceTree = "<group>"; };
+		6CFB2E291B511E500053871B /* MapLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapLocation.m; sourceTree = "<group>"; };
+		6CFB2E2E1B5140030053871B /* AddMapLocationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddMapLocationController.h; sourceTree = "<group>"; };
+		6CFB2E2F1B5140030053871B /* AddMapLocationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddMapLocationController.m; sourceTree = "<group>"; };
+		6CFB2E311B51402F0053871B /* ListMapLocationsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListMapLocationsController.h; sourceTree = "<group>"; };
+		6CFB2E321B51402F0053871B /* ListMapLocationsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListMapLocationsController.m; sourceTree = "<group>"; };
+		6CFB2E351B51407B0053871B /* MapLocationCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapLocationCell.h; sourceTree = "<group>"; };
+		6CFB2E361B51407B0053871B /* MapLocationCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapLocationCell.m; sourceTree = "<group>"; };
+		6CFB2E371B51407B0053871B /* MapLocationCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MapLocationCell.xib; sourceTree = "<group>"; };
 		735245AE5FEC6B99AABA439B /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6F15D58653FA3C78D78CFFE /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "CM-Tarea 3 Google Maps and Analytics/Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -61,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C6C14F21B52FF6300F24563 /* CoreLocation.framework in Frameworks */,
 				6CFB2E1E1B50B1300053871B /* Info.plist in Frameworks */,
 				89FBC33F2E952A721BC0B1DC /* libPods.a in Frameworks */,
 			);
@@ -108,7 +128,8 @@
 		6CFB2DE81B508F0D0053871B /* CM-Tarea 3 Google Maps and Analytics */ = {
 			isa = PBXGroup;
 			children = (
-				6CFB2E131B5091010053871B /* Delegates */,
+				6CFB2E341B5140430053871B /* Cells */,
+				6CFB2E131B5091010053871B /* Main */,
 				6CFB2E121B5090EB0053871B /* Controllers */,
 				6CFB2DF61B508F0D0053871B /* Main.storyboard */,
 				6CFB2DF91B508F0D0053871B /* Images.xcassets */,
@@ -125,7 +146,7 @@
 				6CFB2E1F1B50B3FC0053871B /* GoogleService-Info.plist */,
 				6CFB2E151B50914E0053871B /* Podfile */,
 				6CFB2DEA1B508F0D0053871B /* Info.plist */,
-				6CFB2DEB1B508F0D0053871B /* main.m */,
+				6C4163451B534B120016A330 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -150,24 +171,43 @@
 		6CFB2E121B5090EB0053871B /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				6CFB2DF31B508F0D0053871B /* ViewController.h */,
-				6CFB2DF41B508F0D0053871B /* ViewController.m */,
+				6CFB2DF31B508F0D0053871B /* Start.h */,
+				6CFB2DF41B508F0D0053871B /* Start.m */,
+				6CFB2E2E1B5140030053871B /* AddMapLocationController.h */,
+				6CFB2E2F1B5140030053871B /* AddMapLocationController.m */,
+				6CFB2E311B51402F0053871B /* ListMapLocationsController.h */,
+				6CFB2E321B51402F0053871B /* ListMapLocationsController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
 		};
-		6CFB2E131B5091010053871B /* Delegates */ = {
+		6CFB2E131B5091010053871B /* Main */ = {
 			isa = PBXGroup;
 			children = (
 				6CFB2DED1B508F0D0053871B /* AppDelegate.h */,
 				6CFB2DEE1B508F0D0053871B /* AppDelegate.m */,
+				6CFB2E251B511C1C0053871B /* RWAppData.h */,
+				6CFB2E261B511C1C0053871B /* RWAppData.m */,
+				6CFB2E281B511E500053871B /* MapLocation.h */,
+				6CFB2E291B511E500053871B /* MapLocation.m */,
 			);
-			name = Delegates;
+			name = Main;
+			sourceTree = "<group>";
+		};
+		6CFB2E341B5140430053871B /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				6CFB2E351B51407B0053871B /* MapLocationCell.h */,
+				6CFB2E361B51407B0053871B /* MapLocationCell.m */,
+				6CFB2E371B51407B0053871B /* MapLocationCell.xib */,
+			);
+			name = Cells;
 			sourceTree = "<group>";
 		};
 		D9899CDB58E99996065FD72D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6C6C14F11B52FF6300F24563 /* CoreLocation.framework */,
 				6CFB2E1C1B50B0840053871B /* SystemConfiguration.framework */,
 				6CFB2E1A1B50B06D0053871B /* CoreData.framework */,
 				735245AE5FEC6B99AABA439B /* libPods.a */,
@@ -260,6 +300,7 @@
 				6CFB2DF81B508F0D0053871B /* Main.storyboard in Resources */,
 				6CFB2DFD1B508F0D0053871B /* LaunchScreen.xib in Resources */,
 				6CFB2E201B50B3FC0053871B /* GoogleService-Info.plist in Resources */,
+				6CFB2E391B51407B0053871B /* MapLocationCell.xib in Resources */,
 				6CFB2E161B50914E0053871B /* Podfile in Resources */,
 				6CFB2DFA1B508F0D0053871B /* Images.xcassets in Resources */,
 			);
@@ -314,8 +355,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				6CFB2DEF1B508F0D0053871B /* AppDelegate.m in Sources */,
-				6CFB2DEC1B508F0D0053871B /* main.m in Sources */,
-				6CFB2DF51B508F0D0053871B /* ViewController.m in Sources */,
+				6CFB2E381B51407B0053871B /* MapLocationCell.m in Sources */,
+				6CFB2E331B51402F0053871B /* ListMapLocationsController.m in Sources */,
+				6CFB2E301B5140030053871B /* AddMapLocationController.m in Sources */,
+				6CFB2DF51B508F0D0053871B /* Start.m in Sources */,
+				6CFB2E2A1B511E500053871B /* MapLocation.m in Sources */,
+				6CFB2E271B511C1C0053871B /* RWAppData.m in Sources */,
+				6C4163461B534B120016A330 /* main.m in Sources */,
 				6CFB2DF21B508F0D0053871B /* CM_Tarea_3_Google_Maps_and_Analytics.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -444,7 +490,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "CM-Tarea 3 Google Maps and Analytics/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -456,7 +502,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "CM-Tarea 3 Google Maps and Analytics/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
